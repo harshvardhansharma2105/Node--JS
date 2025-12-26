@@ -6,4 +6,4 @@ const app = express();
 app.get("/", (req,res)=>{
     res.sendFile(path.join(import.meta.dirname, 'files' , 'index.html'));
 })
-app.listen(3000)
+app.listen(3000);
